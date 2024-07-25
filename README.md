@@ -18,3 +18,19 @@ PhoneNow's call center manager is looking for transparency and insight into the 
 
 ## Data Sourcing
 This data was provided to me by the PwC Power BI microinternship hosted by Forage. A copy of the data is included in this repository.
+
+## Data Attributes
+The data is from PhoneNow's call center. The data ranges from Jan. 1 2021 to Mar. 31 2021.
+* Call Id - A unique ID issued for each call.
+* Agent - The call center agent who responded to the call.
+* Date - The date the call was made.
+* Time - The time the call was made.
+* Topic - The topic of the call.
+* Answered (Y/N) - Whether the call was answered or abandoned.
+* Resolved - Whether the agent was able to resolve the issue of the caller.
+* Speed of answer in seconds - The length of time it takes for an agent to answer the call.
+* AvgTalkDuration - The average amount of time the agent spent talking to the customer.
+* Satisfaction rating - The customer satisfaction rating for a call.
+
+## Data Transformation
+The first step when analyzing data and creating a visualization is to look at the data.

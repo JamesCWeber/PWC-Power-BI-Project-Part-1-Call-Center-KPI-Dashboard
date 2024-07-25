@@ -34,3 +34,7 @@ The data is from PhoneNow's call center. The data ranges from Jan. 1 2021 to Mar
 
 ## Data Transformation
 The first step when analyzing data and creating a visualization is to look at the data.
+
+![First Look at the Data](Data_First_Look.png)
+
+We can see that there are missing data in the last 3 columns. The total number of columns missing data are 946, which is 18.92% of the data. Rather than deleting rows with missing data, it is better to replace missing values.

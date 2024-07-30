@@ -35,6 +35,23 @@ The data is from PhoneNow's call center. The data ranges from Jan. 1 2021 to Mar
 ## Data Transformation
 The first step when analyzing data and creating a visualization is to look at the data.
 
-![First Look at the Data](Data_First_Look.png)
+![First look at the data](Data_First_Look.png)
 
-We can see that there are missing data in the last 3 columns. The total number of columns missing data are 946, which is 18.92% of the data. Rather than deleting rows with missing data, it is better to replace missing values. For each column with missing values, find the average value and replace the missing values with the average value.
+We can see that there are missing data in the last 3 columns. The total number of columns missing data are 946, which is 18.92% of the data. Rather than deleting rows with missing data, it is better to replace missing values.
+
+For each column with missing values, find the average value and replace the missing values with the average value.
+
+![Replace missing values with averages.](Replace_Missing_Values.png)
+
+To add granularity to the data, create a column called "Day", and use the TEXT function to determine the what day the call happened.
+
+![Adding a Day column, outlined in blue.](Adding_Day_Column.png)
+
+Power BI has the ability to convert numeric values into duration (hours:minutes:seconds). Power BI does this by taking the value and multiplying it with the number 86400 (60 seconds * 60 minutes * 24 hours = 86400). We need to convert the "Speed of answer in seconds" column and "AvgTalkDuration" column into numeric values.
+
+First we create a column called "AvgTalkDuration in seconds" and convert the average talk duration into seconds. Then we erase the "AvgTalkDuration" column. Then we create 2 columns called "Speed of answer" and "AvgTalkDuration". For each column, we take the duration in seconds and divide each duration by 86400.
+
+The cleaned data set will look like this.
+
+![Cleaned data set. Created columns are outlined in blue](Cleaned_Data_Set.png)
+

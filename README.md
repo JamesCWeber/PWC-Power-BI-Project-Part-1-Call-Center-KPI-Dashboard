@@ -37,4 +37,4 @@ The first step when analyzing data and creating a visualization is to look at th
 
 ![First Look at the Data](Data_First_Look.png)
 
-We can see that there are missing data in the last 3 columns. The total number of columns missing data are 946, which is 18.92% of the data. Rather than deleting rows with missing data, it is better to replace missing values.
+We can see that there are missing data in the last 3 columns. The total number of columns missing data are 946, which is 18.92% of the data. Rather than deleting rows with missing data, it is better to replace missing values. For each column with missing values, find the average value and replace the missing values with the average value.

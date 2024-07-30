@@ -35,17 +35,20 @@ The data is from PhoneNow's call center. The data ranges from Jan. 1 2021 to Mar
 ## Data Transformation
 The data was cleaned and transformed using Excel and the Power Query Editor from Power BI. The steps used to clean and transform the data set are:
 
+In Excel:
 * Replace null values in the "Speed of answer in seconds", "AvgTalkDuration", and "Satisfaction rating" columns with average values.
 * To add granularity to the data, a "Day" column was created using the TEXT function. The "Day" column shows what day the call hapened.
 * Power BI has a data type called duration which can convert numeric values into hours:minutes:seconds. There are two columns wich contain duration data: "Speed of answer in seconds" and "AvgTalkDuration". A new column called "AvgTalkDuration in seconds" was created which converts the values in the "AvgTalkDuration" column into seconds.
 * The values in the "Speed of answer in seconds" and "AvgTalkDuration in seconds" columns are converted into numeric values and put into two columns. Seconds are converted into numeric values by dividing the number of seconds by 86400 (60 seconds * 60 minutes * 24 hours).
+
+A screenshot of the cleaned data set is shown below. New columns are outlined in blue.
+
+![A sample of the cleaned data set.](Cleaned_Data_Set.png)
+
+In Power BI:
 * Once the data is loaded into Power BI, the Power Query Editor is needed to transform column data types.
 * The "Time" column data type was transformed from Date/Time to Time.
 * The "Speed of answer" column data type was transformed from Decimal Number to Duration.
 * The "AvgTalkDuration" column data type was transformed from Decimal Number to Duration.
 * To calculate the average call duration on Power BI, a measure was created using this formula: AverageCallDuration = FORMAT(AVERAGE('Clean2'[AvgTalkDuration]), "NN:SS")
 * To calculate the average speed of answer on Power BI, a measure was created using this formula: AverageAnswerSpeed = Format(AVERAGE('Clean2'[Speed of answer]), "NN:SS")
-
-A screenshot of the cleaned data set is shown below. New columns are outlined in blue.
-
-![A sample of the cleaned data set.](Cleaned_Data_Set.png)

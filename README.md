@@ -17,7 +17,7 @@ PhoneNow's call center manager is looking for transparency and insight into the 
 * Data Transforming (Power BI)
 
 ## Data Sourcing
-This data was provided to me by the PwC Power BI microinternship hosted by Forage. A copy of the data is included in this repository.
+This data was provided to me by the PwC Power BI microinternship hosted by Forage. A copy of the data, 01 Call-Center-Dataset (Cleaned).xlsx, is included in this repository.
 
 ## Data Attributes
 The data is from PhoneNow's call center. The data ranges from Jan. 1 2021 to Mar. 31 2021.
@@ -33,25 +33,19 @@ The data is from PhoneNow's call center. The data ranges from Jan. 1 2021 to Mar
 * Satisfaction rating - The customer satisfaction rating for a call.
 
 ## Data Transformation
-The first step when analyzing data and creating a visualization is to look at the data.
+The data was cleaned and transformed using Excel and the Power Query Editor from Power BI. The steps used to clean and transform the data set are:
 
-![First look at the data](Data_First_Look.png)
+* Replace null values in the "Speed of answer in seconds", "AvgTalkDuration", and "Satisfaction rating" columns with average values.
+* To add granularity to the data, a "Day" column was created using the TEXT function. The "Day" column shows what day the call hapened.
+* Power BI has a data type called duration which can convert numeric values into hours:minutes:seconds. There are two columns wich contain duration data: "Speed of answer in seconds" and "AvgTalkDuration". A new column called "AvgTalkDuration in seconds" was created which converts the values in the "AvgTalkDuration" column into seconds.
+* The values in the "Speed of answer in seconds" and "AvgTalkDuration in seconds" columns are converted into numeric values and put into two columns. Seconds are converted into numeric values by dividing the number of seconds by 86400 (60 seconds * 60 minutes * 24 hours).
+* Once the data is loaded into Power BI, the Power Query Editor is needed to transform column data types.
+* The "Time" column data type was transformed from Date/Time to Time.
+* The "Speed of answer" column data type was transformed from Decimal Number to Duration.
+* The "AvgTalkDuration" column data type was transformed from Decimal Number to Duration.
+* To calculate the average call duration on Power BI, a measure was created using this formula: AverageCallDuration = FORMAT(AVERAGE('Clean2'[AvgTalkDuration]), "NN:SS")
+* To calculate the average speed of answer on Power BI, a measure was created using this formula: AverageAnswerSpeed = Format(AVERAGE('Clean2'[Speed of answer]), "NN:SS")
 
-We can see that there are missing data in the last 3 columns. The total number of columns missing data are 946, which is 18.92% of the data. Rather than deleting rows with missing data, it is better to replace missing values.
+A screenshot of the cleaned data set is shown below. New columns are outlined in blue.
 
-For each column with missing values, find the average value and replace the missing values with the average value.
-
-![Replace missing values with averages.](Replace_Missing_Values.png)
-
-To add granularity to the data, create a column called "Day", and use the TEXT function to determine the what day the call happened.
-
-![Adding a Day column, outlined in blue.](Adding_Day_Column.png)
-
-Power BI has the ability to convert numeric values into duration (hours:minutes:seconds). Power BI does this by taking the value and multiplying it with the number 86400 (60 seconds * 60 minutes * 24 hours = 86400). We need to convert the "Speed of answer in seconds" column and "AvgTalkDuration" column into numeric values.
-
-First we create a column called "AvgTalkDuration in seconds" and convert the average talk duration into seconds. Then we erase the "AvgTalkDuration" column. Then we create 2 columns called "Speed of answer" and "AvgTalkDuration". For each column, we take the duration in seconds and divide each duration by 86400.
-
-The cleaned data set will look like this.
-
-![Cleaned data set. Created columns are outlined in blue](Cleaned_Data_Set.png)
-
+![A sample of the cleaned data set.](Cleaned_Data_Set.png)

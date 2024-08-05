@@ -52,3 +52,6 @@ In Power BI:
 * The "AvgTalkDuration" column data type was transformed from Decimal Number to Duration.
 * To calculate the average call duration on Power BI, a measure was created using this formula: AverageCallDuration = FORMAT(AVERAGE('Clean2'[AvgTalkDuration]), "NN:SS")
 * To calculate the average speed of answer on Power BI, a measure was created using this formula: AverageAnswerSpeed = Format(AVERAGE('Clean2'[Speed of answer]), "NN:SS")
+
+## Data Analysis and Visuals
+

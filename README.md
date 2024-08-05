@@ -17,7 +17,7 @@ PhoneNow's call center manager is looking for transparency and insight into the 
 * Data Transforming (Power BI)
 
 ## Data Sourcing
-This data was provided to me by the PwC Power BI microinternship hosted by Forage. A copy of the data, 01 Call-Center-Dataset (Cleaned).xlsx, is included in this repository.
+This data was provided to me by the PwC Power BI microinternship hosted by Forage. A copy of the data is included in this repository under the file name: 01 Call-Center-Dataset (Cleaned).xlsx.
 
 ## Data Attributes
 The data is from PhoneNow's call center. The data ranges from Jan. 1 2021 to Mar. 31 2021.
@@ -54,4 +54,18 @@ In Power BI:
 * To calculate the average speed of answer on Power BI, a measure was created using this formula: AverageAnswerSpeed = Format(AVERAGE('Clean2'[Speed of answer]), "NN:SS")
 
 ## Data Analysis and Visuals
+A copy of the below dashboard is included in this repository under the file name: James Weber PwC Telecom Dashboard.pbix.
 
+![Call center dashboard.](Call_Center_Dashboard.png)
+
+* The average satisfaction rating is 3.33 stars out of 5. Although the average satisfaction is above 2.5 stars, there is still room for growth.
+* Approximately a third of the call time is used to answer the question.
+* Nearly 20% of calls are unanswered and over 25% of calls are unresolved. The amount of unresolved or unanswered phone calls may contribute to the low average satisfaction rating.
+* Approximately 88% of answered calls were resolved (# of calls resolved/# of calls answered). Customers who have their calls answered but unresolved may rate their satisfaction lower than customers whose calls were not answered.
+* Agents' all have similar performances. There are no agents who have a much higher or lower percantage of answering or resolving questions compared to other agents. This indicates that there are no outstanding or poorly performing agents.
+
+## Conclusions and Recommendations
+* The average customer satisfaction rating of 3.33 stars can be improved to a goal of 4 stars.
+* To lower the number of calls unanswered, PhoneNow can hire 1 more agent.
+* To lower the number of calls unresolved, agents should be asked about calls and questions they have difficulties answering. A class or weekly email newsletter should include answers and ways to resolved those questions and scenarios .
+* Agents could also have references to the most commonly asked questions so that they can answer commonly asked questions as quickly as possible.

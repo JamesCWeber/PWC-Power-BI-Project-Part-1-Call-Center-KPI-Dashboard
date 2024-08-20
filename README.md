@@ -15,6 +15,7 @@ PhoneNow's call center manager is looking for transparency and insight into the 
 * Defining KPIs
 * Data Transfroming (Excel)
 * Data Transforming (Power BI)
+* Creating Measures (Power BI)
 
 ## Data Sourcing
 This data was provided to me by the PwC Power BI microinternship hosted by Forage. A copy of the data is included in this repository under the file name: 01 Call-Center-Dataset (Cleaned).xlsx.

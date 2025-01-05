@@ -18,7 +18,7 @@ PhoneNow's call center manager is looking for transparency and insight into the 
 * Creating Measures (Power BI)
 
 ## Data Sourcing
-This data was provided to me by the PwC Power BI microinternship hosted by Forage. A copy of the data is included in this repository under the file name: 01 Call-Center-Dataset (Cleaned).xlsx.
+This data was provided to me by the PwC Power BI micro-internship hosted by Forage. A copy of the data is included in this repository under the file name: 01 Call-Center-Dataset (Cleaned).xlsx.
 
 ## Data Attributes
 The data is from PhoneNow's call center. The data ranges from Jan. 1 2021 to Mar. 31 2021.

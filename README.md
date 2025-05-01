@@ -6,7 +6,7 @@ This dashboard is Part 1 of a project from the [PwC Power BI micro-internship](h
 In this task, I take on the role of a data analyst employed at PwC. PwC's client, a fictional telecom company called PhoneNow, requires a dashboard that visualizes trends in customer and agent behavior. The data used to create this dashboard is PhoneNow's call center data.
 
 ## Problem Statement
-PhoneNow's call center manager is looking for transparency and insight into the call center data. This includes total number of calls answered and abandoned, spped of answer, and length of calls. The manager is looking for long term trends in customer and agent behavior. The manager will use the resulting dashboard as a basis for discussion with management.
+PhoneNow's call center manager is looking for transparency and insight into the call center data. This includes total number of calls answered and abandoned, speed of answer, and length of calls. The manager is looking for long term trends in customer and agent behavior. The manager will use the resulting dashboard as a basis for discussion with management.
 
 ## Skills Demonstrated
 * Power BI

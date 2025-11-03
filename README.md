@@ -69,5 +69,5 @@ A copy of the below dashboard is included in this repository under the file name
 * The average customer satisfaction rating of 3.33 stars can be improved to a goal of 4 stars.
 * The average number of calls answered per agent is approximately 506 calls and 946 calls were unanswered.
 * To lower the number of calls unanswered, PhoneNow should hire 2 more agents.
-* To lower the number of calls unresolved, agents should be asked about calls and questions they have difficulties answering. A class or weekly email newsletter should include answers and ways to resolved those questions and scenarios .
+* To lower the number of calls unresolved, agents should be asked about calls and questions they have difficulties answering. A class or weekly email newsletter should include answers and ways to resolved those questions and scenarios.
 * Agents could also have references to the most commonly asked questions so that they can answer commonly asked questions as quickly as possible.

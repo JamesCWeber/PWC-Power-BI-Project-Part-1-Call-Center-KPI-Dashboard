@@ -1,7 +1,7 @@
 # Call Center KPI Dashboard (PWC Power BI Project Part 1)
 ![Introductory Picture](Call_Center_Pic.png)
 ## Introduction
-This dashboard is Part 1 of a project from the [PwC Power BI micro-internship](https://www.theforage.com/simulations/pwc-ch/power-bi-cqxg) hosted by Forage. Pricewaterhouse Coopers International Limited (PwC) is a multinational professional services brand of firms that specializs in auditing and tax and business consulting.
+This dashboard is Part 1 of a project from the [PwC Power BI micro-internship](https://www.theforage.com/simulations/pwc-ch/power-bi-cqxg) hosted by Forage. Pricewaterhouse Coopers International Limited (PwC) is a multinational professional services brand of firms that specializes in auditing and tax and business consulting.
 
 In this task, I take on the role of a data analyst employed at PwC. PwC's client, a fictional telecom company called PhoneNow, requires a dashboard that visualizes trends in customer and agent behavior. The data used to create this dashboard is PhoneNow's call center data.
 
@@ -67,6 +67,7 @@ A copy of the below dashboard is included in this repository under the file name
 
 ## Conclusions and Recommendations
 * The average customer satisfaction rating of 3.33 stars can be improved to a goal of 4 stars.
-* To lower the number of calls unanswered, PhoneNow can hire 1 more agent.
+* The average number of calls answered per agent is approximately 506 calls and 946 calls were unanswered.
+* To lower the number of calls unanswered, PhoneNow should hire 2 more agents.
 * To lower the number of calls unresolved, agents should be asked about calls and questions they have difficulties answering. A class or weekly email newsletter should include answers and ways to resolved those questions and scenarios .
 * Agents could also have references to the most commonly asked questions so that they can answer commonly asked questions as quickly as possible.

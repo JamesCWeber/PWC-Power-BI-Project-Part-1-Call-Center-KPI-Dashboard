@@ -6,7 +6,7 @@ This dashboard is Part 1 of a project from the [PwC Power BI micro-internship](h
 In this task, I take on the role of a data analyst employed at PwC. PwC's client, a fictional telecom company called PhoneNow, requires a dashboard that visualizes trends in customer and agent behavior. The data used to create this dashboard is PhoneNow's call center data.
 
 ## Problem Statement
-PhoneNow's call center manager is looking for transparency and insight into the call center data. This includes total number of calls answered and abandoned, speed of answer, and length of calls. The manager is looking for long term trends in customer and agent behavior. The manager will use the resulting dashboard as a basis for discussion with management.
+PhoneNow's call center manager is looking for transparency and insight into the call center data. This includes total number of calls answered and abandoned, speed of answer, and length of calls. The data depicts calls made fron January to March of the same year. The manager is looking for long term trends in customer and agent behavior. The manager will use the resulting dashboard as a basis for discussion with management.
 
 ## Skills Demonstrated
 * Power BI
@@ -59,15 +59,15 @@ A copy of the below dashboard is included in this repository under the file name
 
 ![Call center dashboard.](Call_Center_Dashboard.png)
 
-* The average satisfaction rating is 3.33 stars out of 5. Although the average satisfaction is above 2.5 stars, there is still room for growth.
-* Approximately a third of the call time is used to answer the question.
-* Nearly 20% of calls are unanswered and over 25% of calls are unresolved. The amount of unresolved or unanswered phone calls may contribute to the low average satisfaction rating.
-* Approximately 88% of answered calls were resolved (# of calls resolved/# of calls answered). Customers who have their calls answered but unresolved may rate their satisfaction lower than customers whose calls were not answered.
-* Agents' all have similar performances. There are no agents who have a much higher or lower percantage of answering or resolving questions compared to other agents. This indicates that there are no outstanding or poorly performing agents.
+* PhoneNow is facing a low customer satisfaction score of 3.33 out of 5.
+* On average, customers are waiting 1 minute and 8 seconds to speak with an agent for a call that only lasts 3 minutes and 37 seconds. The wait-to-tallk ratio of 31%.
+* Industry standard 80/20 rule states that 80% of calls are answered within 20 seconds.
+* Approximately 19% of customers hang up (call unanswered) before reaching an agent. The average wait time of 1 minute 8 seconds indicates that many customers lose their patience during the wait time.
+* Of the 1354 unresolved calls, 946 calls were unanswered. This means that 408 (8% of total) customers spoke to an agent, but their issue remains unresolved.
+* Of the 4054 answered calls, 3646 (90%) were resolved. This, combined with the fact that the average call lasts 3 minutes and 37 seconds indicate that the issue is not the quality of the agents.
+* Agent-level data shows that the missed call problem is systemic, rather than being caused by one or two underperformers. In terms of calls answered and calls resolved, the highest and lowest performing agents have little variance in answer and resolution rates.
 
 ## Conclusions and Recommendations
-* The average customer satisfaction rating of 3.33 stars can be improved to a goal of 4 stars.
-* The average number of calls answered per agent is approximately 506 calls and 946 calls were unanswered.
-* To lower the number of calls unanswered, PhoneNow should hire 2 more agents.
-* To lower the number of calls unresolved, agents should be asked about calls and questions they have difficulties answering. A class or weekly email newsletter should include answers and ways to resolved those questions and scenarios.
-* Agents could also have references to the most commonly asked questions so that they can answer commonly asked questions as quickly as possible.
+* The biggest contributor to PhoneNow's low customer satisfaction rating is due to long wait times, which heavily contributes to the number of calls unanswered. Reducing wait time will not only reduce the number of calls unanswered, it would also reduce the number of unresolved calls due to unasnwered calls.
+* The reduce customer wait time, PhoneNow should hire 2 more agents to increase the availabilty of agents to answer calls and help customers.
+* With 4054 calls answered and 8 agents, the average number of calls an agent asnwers in 3 months is approximately 507 calls. Assuming that each agent can comfortably answer 507 calls per 3 months, adding 2 more agents will increase the total answered calls to 5070 calls, which is just over the 5000 total calls in this data set.

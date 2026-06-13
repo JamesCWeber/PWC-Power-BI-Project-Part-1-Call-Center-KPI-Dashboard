@@ -69,5 +69,5 @@ A copy of the below dashboard is included in this repository under the file name
 
 ## Conclusions and Recommendations
 * The biggest contributor to PhoneNow's low customer satisfaction rating is due to long wait times, which heavily contributes to the number of calls unanswered. Reducing wait time will not only reduce the number of calls unanswered, it would also reduce the number of unresolved calls due to unasnwered calls.
-* The reduce customer wait time, PhoneNow should hire 2 more agents to increase the availabilty of agents to answer calls and help customers.
+* To reduce customer wait time, PhoneNow should hire 2 more agents to increase the availabilty of agents to answer calls and help customers.
 * With 4054 calls answered and 8 agents, the average number of calls an agent asnwers in 3 months is approximately 507 calls. Assuming that each agent can comfortably answer 507 calls per 3 months, adding 2 more agents will increase the total answered calls to 5070 calls, which is just over the 5000 total calls in this data set.

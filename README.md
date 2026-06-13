@@ -61,7 +61,7 @@ A copy of the below dashboard is included in this repository under the file name
 
 * PhoneNow is facing a low customer satisfaction score of 3.33 out of 5.
 * On average, customers are waiting 1 minute and 8 seconds to speak with an agent for a call that only lasts 3 minutes and 37 seconds. The wait-to-tallk ratio of 31%.
-* Industry standard 80/20 rule states that 80% of calls are answered within 20 seconds.
+* Industry standard 80/20 rule states that 80% of calls should be answered within 20 seconds.
 * Approximately 19% of customers hang up (call unanswered) before reaching an agent. The average wait time of 1 minute 8 seconds indicates that many customers lose their patience during the wait time.
 * Of the 1354 unresolved calls, 946 calls were unanswered. This means that 408 (8% of total) customers spoke to an agent, but their issue remains unresolved.
 * Of the 4054 answered calls, 3646 (90%) were resolved. This, combined with the fact that the average call lasts 3 minutes and 37 seconds indicate that the issue is not the quality of the agents.
